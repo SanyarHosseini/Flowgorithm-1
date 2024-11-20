@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+  <function name="Main" type="None" variable="" variable2="">
+    <parameters />
+    <body>
+      
+<declare name="num1, num2, largest" type="Real" array="False" size="" />
+<output expression="&quot;عدد اول را وارد کنید:&quot;" newline="True" />
+<input variable="num1" />
+<output expression="&quot;عدد دوم را وارد کنید:&quot;" newline="True" />
+<input variable="num2" />
+<if expression="num1 &gt; num2">
+  <then>
+    <assign variable="largest" expression="num1" />
+  </then>
+  <else>
+    <assign variable="largest" expression="num2" />
+  </else>
+</if>
+<output expression="&quot;بزرگترین عدد: &quot; &amp; largest" newline="True" />
+
+    </body>
+  </function>
+</flowgorithm>
